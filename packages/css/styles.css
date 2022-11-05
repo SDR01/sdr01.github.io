@@ -429,7 +429,7 @@ img {
 .about__info {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
+  /* margin-bottom: var(--mb-2-5); */
 }
 
 .about__info-title {
@@ -449,8 +449,9 @@ img {
 }
 
 .about__buttons {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
+  align-items: center;
 }
 
 /*==================== SKILLS ====================*/
@@ -593,7 +594,7 @@ img {
 }
 
 /*==================== QUALIFICATION ====================*/
-.qualification__section{
+/* .qualification__section{
   margin-top: 70px;
   margin-bottom: 40px;
 }
@@ -639,7 +640,7 @@ img {
 .qualification__calendar {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
-  /* margin-bottom: var(--mb-1) */
+  margin-bottom: var(--mb-1)
 }
 
 .qualification__rounder {
@@ -668,10 +669,10 @@ img {
 
 .qualification__button.qualification__active {
   color: var(--first-color);
-}
+} */
 
 /*==================== statistics  ====================*/
-
+/* 
 .statistic__row .content {
   display: flex;
   flex-wrap: wrap;
@@ -728,7 +729,7 @@ img {
 
 .round .bar {
   clip: unset;
-}
+} */
 
 /*==================== SKILLS ====================*/
 .tech__row {
@@ -759,11 +760,21 @@ img {
 /*==================== github stats ====================*/
 
 .calendar {
-  width: 65%;
+  width: 70%;
   margin: auto;
   padding: 4rem;
   border: none !important;
   padding: 0;
+}
+
+.github-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.github-images img {
+  width: 30%;
 }
 
 
@@ -1046,7 +1057,7 @@ img {
 
 
 /*==================== FOOTER ====================*/
-.footer {
+/* .footer {
   padding-top: 2rem;
 }
 
@@ -1099,7 +1110,7 @@ img {
 .footer__link,
 .footer__social {
   color: #fff;
-}
+} */
 
 /*========== SCROLL UP ==========*/
 /* .scrollup {
